@@ -1,30 +1,26 @@
+from email.message import EmailMessage
+from decouple import config
+import ssl
+import smtplib 
 # Go over to our gmail account and setup 2 factor authentication
 # Generate app password
 # Create a function to send mail
 
-# tqbxopobvskuzyow
-
-from email.message import EmailMessage
-from decouple import config
- 
+# https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5
 # if you get ImportError: cannot import name 'config' from 'decouple'
 # pip uninstall decouple
 # pip install python-decouple
 # this should correct the ImportError
 
-import ssl
-import smtplib
+
 
 API_EMAIL_PASSWORD = config('password_EmailSenderApp')
 
 email_sender = 'jeffrey.l.asuncion@gmail.com'
-# next step create environment variable instead
 email_password = API_EMAIL_PASSWORD
 
 email_receiver = 'bluedragonmatawan@gmail.com'
-
 subject = "Don't forget to subscribe."
-
 body = """
 When you watch a video, please hit subscribe
 """
