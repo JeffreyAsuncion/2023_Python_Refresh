@@ -12,7 +12,7 @@ def get_choices():
     return choices
 
 def check_win(player, computer):
-    print(f"You chose {player}, computer chose {computer}")
+    print(f"\nYou chose {player}, computer chose {computer}")
     if player == computer:
         return "It's a tie!"
     elif player == "rock": 
@@ -31,7 +31,14 @@ def check_win(player, computer):
         else:
             return "Rock smashes Scissors, You lose."
     
-choices = get_choices()
-results = check_win(choices["player"], choices["computer"])
-print(results)
 
+
+while True: 
+    choices = get_choices()
+    results = check_win(choices["player"], choices["computer"])
+    print(results)
+    print("\n"+ "*"*20 +"\n")
+    game_loop = input("Would you like to play again? (y/n) : ")
+    if game_loop.lower() == 'n':
+        print("Goodbye.")
+        break
