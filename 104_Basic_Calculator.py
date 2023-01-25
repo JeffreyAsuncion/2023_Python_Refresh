@@ -41,18 +41,15 @@ while True:
         add(a, b)
     elif choice.lower() == "b":
         print("Subtraction")
-        a = int(input("Input first number : "))
-        b = int(input("Input second number : "))
+        a,b = get_input()
         sub(a, b)
     elif choice.lower() == "c":
         print("Multiplication")
-        a = int(input("Input first number : "))
-        b = int(input("Input second number : "))
+        a,b = get_input()
         mul(a, b)
     elif choice.lower() == "d":
         print("Division")
-        a = int(input("Input first number : "))
-        b = int(input("Input second number : "))
+        a,b = get_input()
         div(a, b)
     elif choice.lower() == 'e':
         print("\nGoodbye...\n")
