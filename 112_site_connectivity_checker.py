@@ -8,13 +8,23 @@
 # the purspose of this function is to check the connectivity of a site
 # site is up and running or response 200
 # site is down
+# https://stackoverflow.com/questions/29537298/python-3-urllib-request-urlopen
 
-import urllib.request as urllib
+import urllib.request
+import urllib.error
 
 def check_url(url):
     print("Checking connectivity ...")
     
-    response = urllib.urlopen(url)
+    try:
+        response = urllib.request.urlopen(url)
+    except urllib.error.HTTPError as e:
+        print(e)
+    except urllib.error.URLError as e:
+        print(e)
+    except ValueError as e:
+        print(e)
+    
     print(f"Connected to {url} successfully")
     print(f"The response code was : {response.getcode()}")
     
