@@ -20,9 +20,23 @@ importance of
 - simiplicity
 
 
-# reasonable people can disagree, but justify
+reasonable people can disagree, but justify
 
 
 Scope
 - variable scope
 
+## 2023.07.02 20:00:00 CS50P - Lecture 01 - Conditionals
+
+>
+>=
+<
+<=
+==
+!=
+
+if, elif, else, or, and
+
+if, elif, elif, elif, else
+can be substituted for 
+match - which is like switch
