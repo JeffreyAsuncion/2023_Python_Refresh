@@ -13,3 +13,5 @@ side effects are the products of a function
 bugs are a mistake in a program
 
 SyntaxError an error in the coding side
+
+# left off at 59:46 - Integers and Operators
