@@ -62,3 +62,22 @@ What's good about functions is that you can change
 
 so you can change want happens underneath the hood,
 as long as functionality is the same
+
+## 2023.07.03 07:26:00 Lecture 03 - Exception 
+
+Syntax Error - errors in code before run-time
+
+Defensive Programming
+need to test Edge Cases or Corner Cases
+for integer input
+- positive
+- zero
+- negative
+- char or string
+
+return is stronger than break
+- they both get you out of a loop 
+- but return also returns a value
+
+try, except, else, break, return, pass
+
