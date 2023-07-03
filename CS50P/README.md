@@ -1,4 +1,6 @@
 
+https://cs50.harvard.edu/python/2022/
+
 ## 2023.07.02 10:58:00 - CS50P - Intro
 
 
@@ -236,4 +238,30 @@ Create test folder
 the init is to treat the folder as a package
 
 pytest test
+
+
+
+## 2023.07.03 18:44:00 CS50P - Lecture06 - File I/O
+
+File I/O is about saving files persistently
+
+open
+docs.python.org/3/library/functions.html#open
+
+
+file = open("names.txt", "a")
+file.write(f"{name}\n")
+file.close()
+
+vs the more pythonic way
+
+with open("names.txt", "a") as file:
+    file.write(f"{name}\n")
+
+csv.reader VS csv.DictReader
+
+csv. Reader() allows you to access CSV data using indexes and is ideal for simple CSV files. csv. DictReader() on the other hand is friendlier and easy to use, especially when working with large CSV files.
+
+-PIL
+pillow.readthedocs.io
 
