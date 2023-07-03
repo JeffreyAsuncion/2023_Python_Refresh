@@ -134,3 +134,54 @@ json - language agnostic format for exchanging data, text file in a json format
 Libraries
 
 
+## 2023.07.03 15:15:00 CS50P - Style
+
+up until now, we have been writing code that is hopefully at least correct. 
+- (does want it is intended to do)
+
+and hopefully it is well designed. 
+- relatively a few lines of code to achieve some goal while still readable 
+- using functions, prevent re-invent the wheel
+- probably not the best style? or form of quality for some code
+
+Style is subjective
+- programmer
+- company
+- course
+- language
+
+PEP8 - Python Enhancement Proposal
+- set of proposals of standards rules?
+
+style is for
+- readability
+- maintanability 
+
+peps.python.org/pep-0008/
+
+"Readability counts"
+- "A style guide is about consistency. Consistency with this style guide is important.  Consistency within a project is more important. Consistency within one module or function is the most important."
+
+
+What is Style?
+- Indentation: yes
+- Tabs or Spaces?: spaces 4
+- Maximum Line Length: 
+- Blank Lines
+- Imports: top in order
+- ...
+
+style tools
+
+pylint
+pip install pylint
+pycodestyle.pycqa.org
+
+pycodestyle
+pycodestyle.pycqa.org
+
+black
+pip install black
+black.readthedocs.io
+
+
