@@ -81,3 +81,14 @@ return is stronger than break
 
 try, except, else, break, return, pass
 
+## 2023.07.03 11:55:00 Lecture 04 - Debugging
+
+set breakpoint
+
+play debug icon
+
+continue, step over, step into, step out
+
+
+
+
