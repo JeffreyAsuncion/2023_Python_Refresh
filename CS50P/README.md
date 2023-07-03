@@ -184,4 +184,56 @@ black
 pip install black
 black.readthedocs.io
 
+# to format > black students.py
+
+## 2023.07.03 15:38:00 CS50P - Lecture 05 - Unit Test
+
+1. write code
+2. test with sample inputs
+
+good to get into the habit of testing your code with code of your own
+- unit tests
+
+unit tests
+- confidence 
+- validation
+
+pytest
+- will automate the test
+- as long as you write the tests
+
+pip install pytest
+docs.pytest.org
+
+pytest test_calculator
+
+test for 
+- user input
+- functionality? math?
+
+breakdown the tests for different categories
+- positive numbers
+- negative numbers
+- zero
+
+pytest 
+F -->> fail
+. -->> pass
+
+
+# important Note
+- pytest tests return values
+- pytest does not test side effects (like prints)
+
+Make your test 
+- simple
+- small
+
+Create test folder
+- __init__.py
+- test_hello.py
+
+the init is to treat the folder as a package
+
+pytest test
 
