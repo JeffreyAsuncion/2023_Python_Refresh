@@ -89,6 +89,48 @@ play debug icon
 
 continue, step over, step into, step out
 
+## 2023.07.03 12:15:00 Lecture 04 - Libraries
 
+modules is a library with one or more functions or other features built-in
+- reusability of code, factor out code and create a library/module
+
+example libraries that come with python
+- random
+
+docs.python.org/3/library/random.html
+
+import keyword
+from keyword
+
+command-line arguments
+
+python hello.py ...
+
+- sys
+
+docs.python.org/3/library/sys.html
+
+sys.argv
+
+
+3rd party modules - packages
+
+pypi
+pypi.org
+
+pypi.org/project/cowsay
+
+
+package manager pip
+
+pip install cowsay
+
+- requests
+
+pypi.org/project/requests
+
+json - language agnostic format for exchanging data, text file in a json format
+
+Libraries
 
 
