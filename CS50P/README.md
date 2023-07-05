@@ -340,3 +340,79 @@ re.findall(pattern, string, flags=0)
 * Validate Data
 * Clean up Data 
 * Extract Data
+
+
+## 2023.07.05 09:57:00 - CS50P - Lecture08 - Object-Oriented Programming
+
+
+data types
+
+tuple -->> immutable
+list -->> mutable
+
+you can index into both using #'s [ ]
+
+dict --> mutable 
+as for access you access each part of dictionary by name instead of by number 
+which is more clear and expressive by name of variable
+
+
+docs.python.org/3/tutorial/classes.html
+
+class
+- a blueprint for pieces of data
+- object
+- a mold that you can define and give a name
+- when you use that mold or blueprint, you get types of data, just like what you want
+- classes allow you to invent your own data types in Python and given them a name
+
+class
+- attributes
+- instance variables
+- methods
+- class variables
+- properties : an attribute with more defense mechanisms
+- decorators @property
+
+def __init__
+
+encapsulate all functionality related to that class
+- validate that name exists
+- validate if a house is correct
+
+__str__ -->> for User
+__repr__ -->> for Developer
+
+
+
+Integer - int
+docs.python.org/3/library/functions.html#int
+class int(x, base=10)
+
+String - str
+class str(object='')
+
+Lists - list
+class list([iterable])
+docs.python.org/3/library/stdtypes.html#list
+
+Dictionary - dict
+class dict
+docs.python.org/3/library/stdtypes.html#dict
+
+
+
+
+class methods
+@classmethod
+@staticmethod
+
+# CODE SMELL
+
+
+Inheritance
+
+
+docs.python.org/3/library/exceptions.html
+
+Operator Overloading
