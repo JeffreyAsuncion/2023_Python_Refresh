@@ -265,3 +265,78 @@ csv. Reader() allows you to access CSV data using indexes and is ideal for simpl
 -PIL
 pillow.readthedocs.io
 
+
+
+## 2023.07.03 17:46:00 - CS50P - Lecture07 - Regular Expressions
+
+Regular Expressions - regexes - a pattern
+
+use patterns to match to certain type of data input
+- email address 
+- website
+- app on phone
+to validate the correct data / validate your input
+
+Regex is to help define patterns in our code. and compare it form the data from someone else. 
+or
+to clean up data that is too messy. 
+
+- re library
+docs.python.org/3/library/re.html
+
+re.search(pattern, string, flags=0)
+
+'.' -->> any character except a new line
+'*' -->> 0 or more repetitions
+'+' -->> 1 or more repetitions
+'?' -->> 0 or 1 repetitions
+{m} -->> m repetition
+{m,n} -->> m-n repetitions
+'^' -->> matches the start of the string
+'$' -->> matches the end of the string or just before the newline at the end of the string
+
+
+r'\.' -->> literal .
+'[ ]' -->> set of chars
+'[^@]' -->> any char except @
+
+\d -->> decimal digit
+\D -->> not a decimal digit
+\s -->> whitespace character
+\S -->> not a whitespace character
+\w -->> word character ... as well as numbers and the underscore
+\W -->> not a word character
+
+A|B -->> either A or B
+(...) -->> a group
+(?:...) -->> non-capturing version
+
+
+FLAGS
+re.IGNORECASE
+re.MULTILINE
+re.DOTALL
+
+
+# Reasonable people might agree to disagree
+
+# 1:12:31 
+
+re.match(pattern, string, flags=0)
+
+:= walrus operator
+- assignment in a conditional 
+
+
+re.sub
+
+re.split(pattern, string, maxsplit=0, flags=0)
+
+re.findall(pattern, string, flags=0)
+- search for multiple copy of string
+
+
+## Reges helps Express these patterns in order to 
+* Validate Data
+* Clean up Data 
+* Extract Data
