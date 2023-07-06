@@ -416,3 +416,98 @@ Inheritance
 docs.python.org/3/library/exceptions.html
 
 Operator Overloading
+
+
+
+## 2023.07.05 16:13:00 CS50P Lecture09 Et Cetera
+
+docs.python.org
+docs.python.org/3/tutorial/
+docs.python.org/3/library/
+docs.python.org/3/reference/
+docs.python.org/3/howto/
+
+set data type
+
+docs.python.org/3/library/stdtypes.html#set
+
+global variable
+
+
+CONSTANTS
+
+Python
+TYPE HINTS 
+- dynamically typed language
+
+docs.python.org/3/library/typing.html
+
+mypy
+
+pip install mypy
+mypy.readthedocs.io
+
+
+to check for type errors or issues
+mypy <file.py>
+
+
+
+DOCSTRINGS
+
+peps.python.org/pep-0257/
+
+
+
+
+
+argparse library
+docs.python.org/3/library/argparse.html
+
+with argparse we have access to 
+flags
+-h --help
+
+
+
+
+
+unpacking
+coins = [100, 50, 25]
+*coins = coins[0], coins[1], coins[2]
+
+
+
+*args, **kwargs
+
+
+
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+
+
+
+map
+docs.python.org/3/library/functions.html#map
+
+
+list comprehensions
+
+
+filter(function, iterable)
+docs.python.org/3/library/functions.html#filter
+
+
+
+dictionary comprehensions
+
+
+enumerate
+
+docs.python.org/3/howto/functional.html#generator
+generator
+- no memory loss
+- no wasted space
+
+yield
+- generates a little bit of data at a time instead of the whole set at once
+- returns an iterator - async
